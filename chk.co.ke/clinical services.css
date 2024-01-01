@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(3, 12, 48, 0.7), rgba(3, 14, 58, 0.7)),  url('Photos/front\ desk.JPG');
+  }
+  
+  .container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 30px auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: rgba(2, 2, 41, 0.623);
+    color: #f1f2f3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .blog-post {
+    margin: 0;
+    border: none;
+    padding: 10px;
+    
+  }
+  
+  .blog-post h2 {
+    cursor: pointer;
+    user-select: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #2158f1;
+    border-radius: 10px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+  }
+  
+  .blog-post .content {
+    display: none;
+    padding: 0;
+    border-top: 1px solid #ddd;
+    
+  }
+  
+  .blog-post h2:hover {
+    background-color: rgb(1, 20, 3)
+  }
+  
+  .blog-post.active .content {
+    display: block;
+  }
+  

@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:linear-gradient(rgba(3, 12, 48, 0.7), rgba(3, 14, 58, 0.7)),  url('Photos/block.png');
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1b07d1;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0e0561;
+    color: #fff;
+}
+
+.download-link {
+    text-decoration: none;
+    color: #073ceb;
+    font-weight: bold;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar button {
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+}
+
+/* Content Styles */
+.container {
+    margin-left: 250px;
+    padding: 20px;
+}
